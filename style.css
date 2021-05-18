@@ -139,3 +139,7 @@ p {
 .blue h2 {
   color: white;
 }
+span.bold-list {
+  font-weight: bold;
+  color: blue;
+}
