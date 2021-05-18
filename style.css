@@ -76,7 +76,9 @@ hr {
 .push {
   height: 50px;
 }
-
+.gap {
+  height: 10px;
+}
 .title {
   padding:0;
   margin-top: 0;
