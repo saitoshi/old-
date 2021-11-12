@@ -19,7 +19,7 @@
 <body>
 <div class ="ui container">
 <div class="title">
-<h2 class = "ui centered alignd header"> Interaloha</h2>
+<h2 class = "ui centered aligned header"> Interaloha</h2>
 <b> Software Engineering, Meteor, React </b>
 <br/>
 <span class ="bold-list"> ON-GOING</span>
@@ -41,6 +41,19 @@ For my Capstone Project course (<a href ="https://manoa.hawaii.edu/catalog/cours
   This was the first scrapper I have worked on with the new format. Initially, I based it off of the previous ZipRecruiter scrapper.
   However, I noticed that there were issues with following it. Thus, decided to trust my own confidence and was able to create the ZipRecruiter scrapper.
   <br/>
+  <b>StackOverFlow Scrapper</b><br/>
+  This was the fourth scrapper I have worked on. <br/>
+  Initially, the pattern was similar to others so writing it initially was not bad. However, after doing a test scrape I noticed that the total jobs scrapped were greater than the amount of internships available.
+  I noticed that the scrapper scraped the recommended jobs. Therefore, to avoid this I extracted the number of internships listed on the page and then did the for loop based on that instead of the urls.length.
+  <br/>
+  <code>
+    <p>
+      const jobNumber = key.match(/\d+/gm);
+      <br/>
+      this.log.debug(`Amount of internships available: \n${jobNumber[0]}`);
+      <br/>
+      for (let i = 0; i < jobNumber ; i++) </p>
+  </code>
 
 </div>
 </div>

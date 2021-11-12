@@ -7,6 +7,17 @@ body {
   background-color: white;
   font-size: 14px;
 }
+code {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+code p {
+    background-color: gray;
+    text-align: center;
+    font-family: Consolas;
+}
 .comment {
   text-align: center;
   font-size: 12px;
