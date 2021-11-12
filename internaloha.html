@@ -49,6 +49,9 @@ For my Capstone Project course (<a href ="https://manoa.hawaii.edu/catalog/cours
   <br/>
   <code>
     <p>
+      // extract the number of internships currently available<br/>
+      const key = await super.getValue('span[class="description fc-light fs-body1"]', 'innerText');
+      <br/>
       const jobNumber = key.match(/\d+/gm);
       <br/>
       this.log.debug(`Amount of internships available: \n${jobNumber[0]}`);
