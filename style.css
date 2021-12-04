@@ -21,6 +21,7 @@ code p {
 .comment {
   text-align: center;
   font-size: 12px;
+    font-weight: bold;
 }
 
 comment {
